@@ -1,0 +1,22 @@
+.input-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input{
+        padding: 0.7rem 1rem;
+        border: none;
+        box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.4);
+        width: 90%;
+        outline: none;
+    }
+    button{
+        border: none;
+        padding: 0.5rem 0.7rem;
+        background-color: #444;
+        color: #fff;
+        cursor: pointer;
+        .add{
+            font-size: 2rem;
+        }
+    }
+}
